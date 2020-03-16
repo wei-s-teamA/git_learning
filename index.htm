@@ -5,6 +5,25 @@
 	</head>
 	<body>
 		hello,everyone,tody,wo're going to learn git base commands!
+		<h1></h1>
+		<h5>
+			删除不要的分支:git branch -d|-D [分支名]<br>
+			同步删除远端分支:git push origin -d [分支名]<br>
+			新建分支:git checkout -b [分支名]<br>
+			同步新增分支到远端:git push --set-upstream origin [分支名]<br>
+			重命名文件:git mv [原名字] [新名字]<br>
+			查看本地所有分支:git branch <br>
+			查看本地所有分支，显示分支最近的commit信息:git branch -v<br>
+			查看本地和远端所有分支:git branch -a <br>
+			查看提交历史:git log --oneline --graph --all<br>
+			打开图形化界面:gitk --all <br>
+			修改最近提交的commit的message:git commit --amend <br>
+			修改老旧commit的message:git rebase -i [所要修改的commit的父级commit的id] <br>
+			比较工作区和暂存区:git diff <br>
+			比较暂存区和本地最新一次commit的内容: git diff --cached <br>
+
+
+		</h5>
 		<script src="index.js"></script>
 	</body>
 </html>
