@@ -21,7 +21,11 @@
 			修改老旧commit的message:git rebase -i [所要修改的commit的父级commit的id] <br>
 			比较工作区和暂存区:git diff <br>
 			比较暂存区和本地最新一次commit的内容: git diff --cached <br>
-
+			比较工作区与最新版本库:git diff HEAD <br>
+			比较两个commit之间的差别:git diff [commitid1] [commitid2] <br>
+			将当前所处理内容放入临时的空间:git stash <br>
+			从临时空间取出来并在存储列表中删除该次存储:git apply <br>
+			从临时空间取出来，存储列表中继续保存该次存储:git pop <br>
 		</h5>
 		<script src="index.js"></script>
 	</body>
